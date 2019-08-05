@@ -1,0 +1,236 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+toolbarbutton#alltabs-button {
+    -moz-binding: url(data:text/plain;charset=utf-8;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8IS0tIENvcHlyaWdodCAoYykgMjAxNyBIYWdnYWkgTnVjaGkNCkF2YWlsYWJsZSBmb3IgdXNlIHVuZGVyIHRoZSBNSVQgTGljZW5zZToNCmh0dHBzOi8vb3BlbnNvdXJjZS5vcmcvbGljZW5zZXMvTUlUDQogLS0+DQoNCjwhLS0gUnVuIHVzZXJDaHJvbWUuanMvdXNlckNocm9tZS54dWwgYW5kIC51Yy5qcy8udWMueHVsLy5jc3MgZmlsZXMgIC0tPg0KPGJpbmRpbmdzIHhtbG5zPSJodHRwOi8vd3d3Lm1vemlsbGEub3JnL3hibCI+DQogICAgPGJpbmRpbmcgaWQ9ImpzIj4NCiAgICAgICAgPGltcGxlbWVudGF0aW9uPg0KICAgICAgICAgICAgPGNvbnN0cnVjdG9yPjwhW0NEQVRBWw0KICAgICAgICAgICAgICAgIGlmKHdpbmRvdy51c2VyQ2hyb21lSnNNb2QpIHJldHVybjsNCiAgICAgICAgICAgICAgICB3aW5kb3cudXNlckNocm9tZUpzTW9kID0gdHJ1ZTsNCg0KICAgICAgICAgICAgICAgIHZhciBjaHJvbWVGaWxlcyA9IEZpbGVVdGlscy5nZXREaXIoIlVDaHJtIiwgW10pLmRpcmVjdG9yeUVudHJpZXM7DQogICAgICAgICAgICAgICAgdmFyIHh1bEZpbGVzID0gW107DQogICAgICAgICAgICAgICAgdmFyIHNzcyA9IENjWydAbW96aWxsYS5vcmcvY29udGVudC9zdHlsZS1zaGVldC1zZXJ2aWNlOzEnXS5nZXRTZXJ2aWNlKENpLm5zSVN0eWxlU2hlZXRTZXJ2aWNlKTsNCg0KICAgICAgICAgICAgICAgIHdoaWxlKGNocm9tZUZpbGVzLmhhc01vcmVFbGVtZW50cygpKSB7DQogICAgICAgICAgICAgICAgICAgIHZhciBmaWxlID0gY2hyb21lRmlsZXMuZ2V0TmV4dCgpLlF1ZXJ5SW50ZXJmYWNlKENpLm5zSUZpbGUpOw0KICAgICAgICAgICAgICAgICAgICB2YXIgZmlsZVVSSSA9IFNlcnZpY2VzLmlvLm5ld0ZpbGVVUkkoZmlsZSk7DQoNCiAgICAgICAgICAgICAgICAgICAgaWYoZmlsZS5pc0ZpbGUoKSkgew0KICAgICAgICAgICAgICAgICAgICAgICAgdHlwZSA9ICJub25lIjsNCiAgICAgICAgICAgICAgICAgICAgICAgIGlmKC8oXnVzZXJDaHJvbWV8LnVjKS5qcyQvaS50ZXN0KGZpbGUubGVhZk5hbWUpKSB7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZSA9ICJ1c2VyY2hyb21lL2pzIjsNCiAgICAgICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICAgICAgICAgIGVsc2UgaWYoLyhedXNlckNocm9tZXwudWMpLnh1bCQvaS50ZXN0KGZpbGUubGVhZk5hbWUpKSB7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZSA9ICJ1c2VyY2hyb21lL3h1bCI7DQogICAgICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgICAgICAgICBlbHNlIGlmKC8uYXMuY3NzJC9pLnRlc3QoZmlsZS5sZWFmTmFtZSkpIHsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0eXBlID0gImFnZW50c2hlZXQiOw0KICAgICAgICAgICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgICAgICAgICAgZWxzZSBpZigvXig/ISh1c2VyQ2hyb21lfHVzZXJDb250ZW50KS5jc3MkKS4rLmNzcyQvaS50ZXN0KGZpbGUubGVhZk5hbWUpKSB7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZSA9ICJ1c2Vyc2hlZXQiOw0KICAgICAgICAgICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgICAgICAgICAgaWYodHlwZSAhPSAibm9uZSIpIHsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygiLS0tLS0tLS0tLVwgIiArIGZpbGUubGVhZk5hbWUgKyAiICgiICsgdHlwZSArICIpIik7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJ5IHsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYodHlwZSA9PSAidXNlcmNocm9tZS9qcyIpIHsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNlcnZpY2VzLnNjcmlwdGxvYWRlci5sb2FkU3ViU2NyaXB0V2l0aE9wdGlvbnMoZmlsZVVSSS5zcGVjLCB7dGFyZ2V0OiB3aW5kb3csIGlnbm9yZUNhY2hlOiB0cnVlfSk7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZWxzZSBpZih0eXBlID09ICJ1c2VyY2hyb21lL3h1bCIpIHsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHh1bEZpbGVzLnB1c2goZmlsZVVSSS5zcGVjKTsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbHNlIGlmKHR5cGUgPT0gImFnZW50c2hlZXQiKSB7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZighc3NzLnNoZWV0UmVnaXN0ZXJlZChmaWxlVVJJLCBzc3MuQUdFTlRfU0hFRVQpKQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNzcy5sb2FkQW5kUmVnaXN0ZXJTaGVldChmaWxlVVJJLCBzc3MuQUdFTlRfU0hFRVQpOw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVsc2UgaWYodHlwZSA9PSAidXNlcnNoZWV0Iikgew0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYoIXNzcy5zaGVldFJlZ2lzdGVyZWQoZmlsZVVSSSwgc3NzLlVTRVJfU0hFRVQpKQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNzcy5sb2FkQW5kUmVnaXN0ZXJTaGVldChmaWxlVVJJLCBzc3MuVVNFUl9TSEVFVCk7DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9IGNhdGNoKGUpIHsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uc29sZS5sb2coIiMjIyMjIyMjIyMgRVJST1I6ICIgKyBlICsgIiBhdCAiICsgZS5saW5lTnVtYmVyICsgIjoiICsgZS5jb2x1bW5OdW1iZXIpOw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygiLS0tLS0tLS0tLS8gIiArIGZpbGUubGVhZk5hbWUpOw0KICAgICAgICAgICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgfQ0KDQogICAgICAgICAgICAgICAgc2V0VGltZW91dChmdW5jdGlvbiBsb2FkWFVMKCkgew0KICAgICAgICAgICAgICAgICAgICBpZih4dWxGaWxlcy5sZW5ndGggPiAwKSB7DQogICAgICAgICAgICAgICAgICAgICAgICBkb2N1bWVudC5sb2FkT3ZlcmxheSh4dWxGaWxlcy5zaGlmdCgpLCBudWxsKTsNCiAgICAgICAgICAgICAgICAgICAgICAgIHNldFRpbWVvdXQobG9hZFhVTCwgNSk7DQogICAgICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICB9LCAwKTsNCiAgICAgICAgICAgIF1dPjwvY29uc3RydWN0b3I+DQogICAgICAgIDwvaW1wbGVtZW50YXRpb24+DQogICAgPC9iaW5kaW5nPg0KPC9iaW5kaW5ncz4=);
+}
+:root {
+    --tabs-border: transparent !important;
+    /* active tab left & right borders - not working in 58?*/
+    --toolbox-border-bottom-color: transparent !important;
+    /* 1px line under background tabs */
+    --chrome-nav-bar-controls-border-color: transparent !important;
+    /* border around url bar */
+    --toolbarbutton-border-radius: 0px !important;
+    
+    --toolbarbutton-vertical-text-padding: 0px !important;
+}
+
+
+#titlebar
+ {
+   -moz-box-ordinal-group: 0 !important;
+ }
+/* Put nav bar above the tab bar and make a space for traffic lights. */
+ #nav-bar {
+   padding-right: 72px !important;
+   -moz-box-ordinal-group: 1 !important;
+ }
+
+#main-window[sizemode="maximized"] #nav-bar {
+   padding-top: 8px !important;
+ }
+
+#main-window[sizemode="maximized"] #TabsToolbar {
+   top: 36px !important;
+   position: fixed !important;
+}
+
+#main-window[sizemode="maximized"] #tabbrowser-tabs {
+   min-width: 1920px !important;
+}
+
+
+#tabbrowser-tabs {
+  min-height: 32px !important;
+  border: 0 !important;  
+}
+
+.tab-line {
+    display: none !important;
+}
+
+.titlebar-spacer {
+  display: none !important;
+}
+
+.tabbrowser-tab::after,
+.tabbrowser-tab::before {
+    border: none !important;
+    color: grey !important;
+    opacity: .2 !important;
+}
+
+
+ /* Put tabs below the nav bar. */
+ #titlebar {
+   -moz-box-ordinal-group: 2 !important;
+ }
+ 
+/* Remove padding above tabbar in compact mode */
+#main-window[sizemode="normal"] > #titlebar {
+  -moz-appearance: initial !important;
+}
+
+#urlbar{
+  text-align: center !important;
+  color: var(--tcolor) !important;
+  background-color: var(--mcolor) !important;
+  border: none !important;
+  box-shadow: none !important;
+  --toolbarbutton-border-radius: 0px !important;
+  margin: 0!important;
+}
+
+#urlbar[focused="true"] {
+  color: rgb(255,255,255) !important;
+  text-align: left !important;
+  transition: text-align ease 1s !important;
+}
+
+#urlbar:hover {
+  color: rgb(255,255,255) !important;
+  transition: color ease 0.5s !important;
+}
+
+#main-window[sizemode="maximized"] .titlebar-buttonbox .titlebar-button
+{
+  padding: 6px 6px 6px 6px !important;
+}
+
+
+#main-window[sizemode="maximized"] .titlebar-buttonbox-container{    
+  position: fixed;
+  top:10px;
+  right:0;
+  height: 30px;
+}
+
+#main-window[sizemode="normal"] .titlebar-buttonbox .titlebar-button
+{
+  padding: 9px 6px 9px 6px !important;
+}
+
+#main-window[sizemode="normal"] .titlebar-buttonbox-container{    
+  position: fixed;
+  top:0px;
+  right:0;
+  height: 30px;
+}   
+
+.tabs-newtab-button{
+  padding: 0 !important;
+}
+
+
+#PanelUI-button,
+#customization-panel-container,
+#customization-panelWrapper .panel-arrow { 
+  -moz-box-ordinal-group: 0 !important;
+}
+
+
+#pocket-button,
+#star-button,
+#pageActionButton,
+#extension-icon,
+#identity-icon
+{
+  display: none !important;
+  background: transparent !important;
+}
+/* Borders inside URL bar */
+ #identity-box {
+   border: 0 !important;
+   padding: 0 6px 0px 2px !important;
+ }
+
+
+/* Hide the back button unless we can actually go back. */
+ #back-button[disabled="true"] {
+   display: none;
+ }
+ 
+ /* Hide the forward button always */
+ #forward-button[disabled="true"] {
+   display: none;
+ }
+
+#main-window[sizemode="maximized"] #stop-reload-button> .toolbarbutton-1 > .toolbarbutton-animatable-box{ margin-top: 4px }
+
+.tabbrowser-tab:hover:not([pinned="true"]) .tab-icon-image {
+     display: none;
+ }
+ 
+ .tab-close-button {
+     -moz-box-ordinal-group: 0 !important;
+     border-radius: 50% !important;
+     margin-right: -16px !important;
+     opacity: 1 !important;
+     padding-right: 0px !important; 
+ }
+ 
+ .tabbrowser-tab .tab-close-button {
+   margin-left: -2px !important;
+   margin-right: 0px !important;
+ }
+ 
+ .tab-close-button {
+     display: none !important;
+ }
+ 
+ .tabbrowser-tab:hover:not([pinned="true"]) .tab-icon-image ~ .tab-close-button {
+     display: -moz-box !important;
+ 
+ }
+ 
+ .tab-close-button:hover:not([pinned="true"]) {
+   transform: rotate(-90deg) !important;
+   transition: transform ease-in-out 0.5s !important;
+ }
+ 
+ .tabbrowser-tab:hover .tab-label-container {
+   padding-left: 4px !important;
+ }
+
+/* Context Menu Modifications */
+
+menupopup {
+    -moz-appearance: none !important;
+    background-color: #3c3c3f !important;
+    border: 1px solid #333 !important;
+    margin: -1px 0 0 0 !important;
+}
+menuseparator {
+    -moz-appearance: none !important;
+    max-height: 1px !important;
+    border: none !important;
+    padding: 0.5px 0 !important;
+    margin: 0 10px !important;
+    background-color: #2f2f2f !important;
+}
+menuitem, menu {
+    -moz-appearance: none !important;
+    color: white !important;
+    padding: 0 0 2px 0 !important;
+    min-height: 25px !important;
+}
+menugroup {
+    padding: 0 !important;
+    background-color: transparent !important;
+}
+.menu-right {
+    -moz-appearance: none !important;
+    padding: 7px !important;
+    margin-right: 6px !important;
+    color: white !important;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(-45deg) scale(.35);
+}
+.menu-iconic-left {
+  -moz-appearance: none !important;
+  color: white !important;
+} 
+.private-browsing-indicator{
+  display: none;
+}
