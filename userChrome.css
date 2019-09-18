@@ -13,6 +13,8 @@ toolbarbutton#alltabs-button {
     --toolbarbutton-border-radius: 0px !important;
     
     --toolbarbutton-vertical-text-padding: 0px !important;
+    --scrollbar-color: #0079D3 #2E3645 !important;
+    --scrollbar-width: thin !important;
 }
 
 
@@ -31,19 +33,23 @@ toolbarbutton#alltabs-button {
  }
 
 #main-window[sizemode="maximized"] #TabsToolbar {
-   top: 36px !important;
+   top: 40px !important;
    position: fixed !important;
 }
 
-#main-window[sizemode="maximized"] #tabbrowser-tabs {
-   min-width: 1920px !important;
+#TabsToolbar-customization-target{
+  width: 3440px !important;
 }
-
 
 #tabbrowser-tabs {
   min-height: 32px !important;
   border: 0 !important;  
 }
+/*
+.tabbrowser-tab:not([pinned]){
+  min-width: 80px !important;
+  max-width: 300px !important;
+}*/
 
 .tab-line {
     display: none !important;
@@ -233,4 +239,13 @@ menugroup {
 } 
 .private-browsing-indicator{
   display: none;
+}
+
+/* urlbar results panel customazation */
+#urlbar-results {
+  margin-top: 0px !important;
+  border-top: 0px !important;
+}
+.urlbarView {
+  z-index: 4 !important;
 }
