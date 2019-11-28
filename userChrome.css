@@ -17,6 +17,11 @@ toolbarbutton#alltabs-button {
     --scrollbar-width: thin !important;
 }
 
+.titlebar-buttonbox-container
+{
+  display: none;
+}
+
 
 #titlebar
  {
@@ -24,8 +29,8 @@ toolbarbutton#alltabs-button {
  }
 /* Put nav bar above the tab bar and make a space for traffic lights. */
  #nav-bar {
-   padding-right: 72px !important;
    -moz-box-ordinal-group: 1 !important;
+   color: grey !important;
  }
 
 #main-window[sizemode="maximized"] #nav-bar {
@@ -81,10 +86,10 @@ toolbarbutton#alltabs-button {
   text-align: center !important;
   color: var(--tcolor) !important;
   background-color: var(--mcolor) !important;
-  border: none !important;
+  border: 0 !important;
   box-shadow: none !important;
   --toolbarbutton-border-radius: 0px !important;
-  margin: 0!important;
+  margin: 0 !important;
 }
 
 #urlbar[focused="true"] {
@@ -118,10 +123,17 @@ toolbarbutton#alltabs-button {
 
 #main-window[sizemode="normal"] .titlebar-buttonbox-container{    
   position: fixed;
-  top:0px;
-  right:0;
+  top: 30px !important;
+  right: 0 !important;
   height: 30px;
-}   
+}
+
+.titlebar-buttonbox-container
+{
+  -moz-box-ordinal-group: -19;
+  position: fixed;
+  top: 0px !important;
+}
 
 .tabs-newtab-button{
   padding: 0 !important;
@@ -214,7 +226,7 @@ menuseparator {
     margin: 0 10px !important;
     background-color: #2f2f2f !important;
 }
-menuitem, menu {
+#contentAreaContextMenu menuitem, menu {
     -moz-appearance: none !important;
     color: white !important;
     padding: 0 0 2px 0 !important;
